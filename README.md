@@ -1,7 +1,10 @@
 # sign-language-detection
+
+Sign Language is a form of communication used primarily by people hard of hearing or deaf. This type of gesture-based language allows people to convey ideas and thoughts easily overcoming the barriers caused by difficulties from hearing issues.
+
 Model developed for detecting the american sign language for deaf people using computer vision.
 
-First i had preprocessed the data and trained the model using CNN which creates the feature maps such that we can detect the features which are the signs of sign language.
+First i had preprocessed the data and trained the model using CNN which creates the feature maps of the data such that we can detect the features.
 After creating the model i saved it and used opencv and mediapipe to take the real time input data from the webcam and prerpocess them using pandas and predict the output using the trained model.
 
 Refrences - 
